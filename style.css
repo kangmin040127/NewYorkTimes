@@ -1,0 +1,53 @@
+.input-button{
+    margin-top: 20px;
+}
+.input-button input{
+    border-radius: 5px;
+}
+.input-button button{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.head-line{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+.head-line svg{
+    width: 430px;
+}
+
+.menus{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 3px solid rgba(0,0,0,0.4);
+}
+.menus button{
+    border: none;
+    margin: 10px;
+    background-color: none;
+}
+.menus button:hover{
+    background-color: rgb(190, 190, 190);
+}
+
+.news{
+    border-bottom: 2px solid rgb(90, 89, 89);
+    padding: 15px 0;
+}
+
+.img-size{
+    max-width: 100%;
+    max-height: 250px;
+}
+
+@media screen and (max-width: 700px){
+    img{
+        width: 100%;
+    }
+}
